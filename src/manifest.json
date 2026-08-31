@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "com.hebrew-typing.newplugin",
+  "name": "הקלדה עיברית",
+  "version": "1.1.0",
+  "description": "תרגול הקלדה עיוורת בעברית עם משחקים, סימולטור ידיים, שיעורים ומעקב התקדמות",
+  "author": "pcinfogmach",
+  "stability": "beta",
+  "entrypoint": "index.html",
+  "minAppVersion": "0.9.93",
+  "sdkVersion": "1.x",
+  "type": "webapp",
+  "category": "Utilities",
+  "permissions": [
+    "events.subscribe:theme.changed"
+  ],
+  "contributes": {
+    "toolTab": {
+      "title": "הקלדה עיברית",
+      "order": 100,
+      "defaultPinned": true,
+      "iconName": "keyboard_24_regular"
+    }
+  }
+}
